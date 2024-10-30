@@ -62,3 +62,10 @@ Message Thread->AI Thread: 解析好的信息
 
 ```
 
+```mermaid
+sequenceDiagram 
+participant A as Alice 
+participant B as Bob A->>B: 发消息 B-->>A: 收到
+```
+
+
