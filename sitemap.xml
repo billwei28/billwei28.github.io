@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://billwei28.github.io/2023/10/30/Android/Android15/Android_selinux/</loc>
+    
+    <lastmod>2024-10-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://billwei28.github.io/tags/index.html</loc>
     
     <lastmod>2024-10-30</lastmod>
@@ -59,6 +68,13 @@
   
   <url>
     <loc>https://billwei28.github.io/categories/Android/</loc>
+    <lastmod>2024-10-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://billwei28.github.io/categories/Android/Android15/</loc>
     <lastmod>2024-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

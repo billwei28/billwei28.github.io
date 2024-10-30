@@ -182,7 +182,16 @@
                             &nbsp;
                             Android
                         </a>
-                         <ul class="unstyled" id="tree">  <li class="file"><a href="/1970/01/01/Android/hello-world/">Hello World</a></li>  </ul> 
+                         <ul class="unstyled" id="tree"> 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            Android15
+                        </a>
+                         <ul class="unstyled" id="tree">  <li class="file"><a href="/2023/10/30/Android/Android15/Android_selinux/">Android 15 Selinux 编译</a></li>  </ul> 
+                    </li> 
+                     <li class="file"><a href="/1970/01/01/Android/hello-world/">Hello World</a></li>  </ul> 
                     </li> 
                      <li class="file"><a href="/1970/01/01/hello-world/">Hello World</a></li>  </ul> 
     </div>
@@ -256,6 +265,105 @@
 </aside>
             
             <section id="main">
+        <article id="post-Android/Android15/Android_selinux" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/Android/">Android</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Android/Android15/">Android15</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2023/10/30/Android/Android15/Android_selinux/">
+            <time datetime="2023-10-30T06:30:00.000Z" itemprop="datePublished">2023-10-30</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/Android/Android15/Android_selinux.md"> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/Android/Android15/Android_selinux.md"> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/Android/Android15/Android_selinux.md"> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2023/10/30/Android/Android15/Android_selinux/">Android 15 Selinux 编译</a>
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    
+                    <p></p><h3 id="Android-15-selinux-编译"><a href="#Android-15-selinux-编译" class="headerlink" title="Android 15 selinux 编译"></a>Android 15 selinux 编译</h3><p>Android 15 selinux 编译 和之前不一样了,之前可以</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mmm system/sepolicy</span><br></pre></td></tr></table></figure>
+<p>现在这个用不了了,</p>
+<p>需要m 单独编译</p>
+<figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make selinux_policy -j32</span><br></pre></td></tr></table></figure>
+<p>
+                
+            
+        
+        
+            </p></div>   
+            <div class="article-more-link">
+                <a href="/2023/10/30/Android/Android15/Android_selinux/#more">查看更多</a>
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+
+
+
+
+    
         <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -530,7 +638,26 @@
 
 <!-- Custom Scripts -->
 
+
+<script src="/libs/mermaid/mermaid.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        var mermaid_config = {
+            startOnLoad: true,
+            theme: 'default',
+            flowchart:{
+                useMaxWidth: false,
+                htmlLabels: true
+            }
+        }
+        mermaid.initialize(mermaid_config);
+    });
+</script>
+
+
 <script src="/js/main.js"></script>
+
 
 
     </div>
