@@ -6,7 +6,7 @@
   <link href="https://billwei28.github.io/atom.xml" rel="self"/>
   
   <link href="https://billwei28.github.io/"/>
-  <updated>2024-10-30T16:07:29.485Z</updated>
+  <updated>2024-10-30T16:15:19.517Z</updated>
   <id>https://billwei28.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://billwei28.github.io/2023/10/30/Android/Android15/Android_selinux/"/>
     <id>https://billwei28.github.io/2023/10/30/Android/Android15/Android_selinux/</id>
     <published>2023-10-30T06:30:00.000Z</published>
-    <updated>2024-10-30T16:07:29.485Z</updated>
+    <updated>2024-10-30T16:15:19.517Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="Android-15-selinux-编译"><a href="#Android-15-selinux-编译" class="headerlink" title="Android 15 selinux 编译"></a>Android 15 selinux 编译</h3><p>Android 15 selinux 编译 和之前不一样了,之前可以</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mmm system/sepolicy</span><br></pre></td></tr></table></figure><p>现在这个用不了了,</p><p>需要m 单独编译</p><figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make selinux_policy -j32</span><br></pre></td></tr></table></figure><pre class="mermaid">graph TD;    A-->B;    A-->C;    B-->D;    C-->D;</pre><pre class="mermaid">sequenceDiagramtitle: 序列图participant NetWork Threadparticipant Message Threadparticipant AI ThreadNetWork Thread->Message Thread: 收到网络信息Message Thread->Message Thread: Paser处理信息Message Thread->AI Thread: 解析好的信息</pre><pre class="mermaid">flowchart LRA[hexo] --> B[mermaid]A --> C[latex]</pre><p>graph LR<br>    A[开始] –&gt; B[中间步骤]<br>    B –&gt; C[结束]</p><pre class="mermaid">sequenceDiagramtitle: 序列图participant NetWork Threadparticipant Message Threadparticipant AI ThreadNetWork Thread->Message Thread: 收到网络信息Message Thread->Message Thread: Paser处理信息Message Thread->AI Thread: 解析好的信息</pre>]]></content>
+    <content type="html"><![CDATA[<h3 id="Android-15-selinux-编译"><a href="#Android-15-selinux-编译" class="headerlink" title="Android 15 selinux 编译"></a>Android 15 selinux 编译</h3><p>Android 15 selinux 编译 和之前不一样了,之前可以</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mmm system/sepolicy</span><br></pre></td></tr></table></figure><p>现在这个用不了了,</p><p>需要m 单独编译</p><figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make selinux_policy -j32</span><br></pre></td></tr></table></figure><pre class="mermaid">graph TD;    A-->B;    A-->C;    B-->D;    C-->D;</pre><pre class="mermaid">sequenceDiagramtitle: 序列图participant NetWork Threadparticipant Message Threadparticipant AI ThreadNetWork Thread->Message Thread: 收到网络信息Message Thread->Message Thread: Paser处理信息Message Thread->AI Thread: 解析好的信息</pre><pre class="mermaid">flowchart LRA[hexo] --> B[mermaid]A --> C[latex]</pre><p>graph LR<br>    A[开始] –&gt; B[中间步骤]<br>    B –&gt; C[结束]</p><pre class="mermaid">sequenceDiagramtitle: 序列图participant NetWork Threadparticipant Message Threadparticipant AI ThreadNetWork Thread->Message Thread: 收到网络信息Message Thread->Message Thread: Paser处理信息Message Thread->AI Thread: 解析好的信息</pre><pre class="mermaid">sequenceDiagram participant A as Alice participant B as Bob A->>B: 发消息 B-->>A: 收到</pre>]]></content>
     
     
       

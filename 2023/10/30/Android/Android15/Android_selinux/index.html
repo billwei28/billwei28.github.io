@@ -17,7 +17,7 @@
 <meta property="og:description" content="Android 15 selinux 编译Android 15 selinux 编译 和之前不一样了,之前可以 1mmm system&#x2F;sepolicy 现在这个用不了了, 需要m 单独编译 1make selinux_policy -j32  graph TD;     A--&gt;B;     A--&gt;C;     B--&gt;D;     C--&gt;D;  sequenceDiagram title:">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-10-30T06:30:00.000Z">
-<meta property="article:modified_time" content="2024-10-30T16:07:29.485Z">
+<meta property="article:modified_time" content="2024-10-30T16:15:19.517Z">
 <meta property="article:author" content="彪彪">
 <meta name="twitter:card" content="summary">
     
@@ -360,6 +360,11 @@ NetWork Thread->Message Thread: 收到网络信息
 Message Thread->Message Thread: Paser处理信息
 Message Thread->AI Thread: 解析好的信息</pre>
 
+<pre class="mermaid">sequenceDiagram 
+participant A as Alice 
+participant B as Bob A->>B: 发消息 B-->>A: 收到</pre>
+
+
 
             </div>
         
@@ -410,6 +415,13 @@ Message Thread->AI Thread: 解析好的信息</pre>
             
         </div>
     </div>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'default' // 可选主题
+  });
+</script>
 </footer>
 
         
@@ -475,26 +487,7 @@ Message Thread->AI Thread: 解析好的信息</pre>
 
 <!-- Custom Scripts -->
 
-
-<script src="/libs/mermaid/mermaid.min.js"></script>
-
-<script>
-    $(document).ready(function() {
-        var mermaid_config = {
-            startOnLoad: true,
-            theme: 'default',
-            flowchart:{
-                useMaxWidth: false,
-                htmlLabels: true
-            }
-        }
-        mermaid.initialize(mermaid_config);
-    });
-</script>
-
-
 <script src="/js/main.js"></script>
-
 
 
     </div>
